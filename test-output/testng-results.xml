@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-30T13:20:09 IST" name="Suite" finished-at="2025-05-30T13:21:47 IST" duration-ms="97809">
+    <groups>
+    </groups>
+    <test started-at="2025-05-30T13:20:09 IST" name="Test" finished-at="2025-05-30T13:21:47 IST" duration-ms="97809">
+      <class name="test_Package.Advantage_productpageTest">
+        <test-method is-config="true" signature="set_Up()[pri:0, instance:test_Package.Advantage_productpageTest@13c9d689]" started-at="2025-05-30T13:21:15 IST" name="set_Up" finished-at="2025-05-30T13:21:15 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_Up -->
+        <test-method signature="test_navigation()[pri:5, instance:test_Package.Advantage_productpageTest@13c9d689]" started-at="2025-05-30T13:21:15 IST" name="test_navigation" finished-at="2025-05-30T13:21:23 IST" duration-ms="8344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_navigation -->
+        <test-method signature="slider()[pri:6, instance:test_Package.Advantage_productpageTest@13c9d689]" started-at="2025-05-30T13:21:24 IST" name="slider" finished-at="2025-05-30T13:21:32 IST" duration-ms="8024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slider -->
+        <test-method signature="checkOut()[pri:7, instance:test_Package.Advantage_productpageTest@13c9d689]" started-at="2025-05-30T13:21:32 IST" name="checkOut" finished-at="2025-05-30T13:21:42 IST" duration-ms="10486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOut -->
+        <test-method signature="pay_n_Print()[pri:8, instance:test_Package.Advantage_productpageTest@13c9d689]" started-at="2025-05-30T13:21:42 IST" name="pay_n_Print" finished-at="2025-05-30T13:21:47 IST" duration-ms="5206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pay_n_Print -->
+      </class> <!-- test_Package.Advantage_productpageTest -->
+      <class name="test_Package.Advantage_homeTest">
+        <test-method is-config="true" signature="set_Up()[pri:0, instance:test_Package.Advantage_homeTest@28701274]" started-at="2025-05-30T13:21:06 IST" name="set_Up" finished-at="2025-05-30T13:21:06 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_Up -->
+        <test-method signature="Sel_Test()[pri:3, instance:test_Package.Advantage_homeTest@28701274]" started-at="2025-05-30T13:21:06 IST" name="Sel_Test" finished-at="2025-05-30T13:21:15 IST" duration-ms="8749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sel_Test -->
+        <test-method signature="title_Test()[pri:4, instance:test_Package.Advantage_homeTest@28701274]" started-at="2025-05-30T13:21:15 IST" name="title_Test" finished-at="2025-05-30T13:21:15 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- title_Test -->
+      </class> <!-- test_Package.Advantage_homeTest -->
+      <class name="test_Package.Advantage_logintest">
+        <test-method is-config="true" signature="open_Browser()[pri:0, instance:test_Package.Advantage_logintest@6771beb3]" started-at="2025-05-30T13:20:09 IST" name="open_Browser" finished-at="2025-05-30T13:20:27 IST" duration-ms="17209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_Browser -->
+        <test-method is-config="true" signature="set_Up()[pri:0, instance:test_Package.Advantage_logintest@6771beb3]" started-at="2025-05-30T13:20:27 IST" name="set_Up" finished-at="2025-05-30T13:20:27 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_Up -->
+        <test-method is-config="true" signature="setupWait()[pri:0, instance:test_Package.Advantage_logintest@6771beb3]" started-at="2025-05-30T13:20:27 IST" name="setupWait" finished-at="2025-05-30T13:20:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupWait -->
+        <test-method signature="menu_Test()[pri:1, instance:test_Package.Advantage_logintest@6771beb3]" started-at="2025-05-30T13:20:27 IST" name="menu_Test" finished-at="2025-05-30T13:20:33 IST" duration-ms="6552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menu_Test -->
+        <test-method is-config="true" signature="setupWait()[pri:0, instance:test_Package.Advantage_logintest@6771beb3]" started-at="2025-05-30T13:20:33 IST" name="setupWait" finished-at="2025-05-30T13:20:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupWait -->
+        <test-method signature="login_Test()[pri:2, instance:test_Package.Advantage_logintest@6771beb3]" started-at="2025-05-30T13:20:33 IST" name="login_Test" finished-at="2025-05-30T13:21:06 IST" duration-ms="33044" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on mac (22cd66d7c1a494e82bf116dcff2ee039)] -> name: username] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.55, chrome: {chromedriverVersion: 137.0.7151.55 (254bc711794d..., userDataDir: /var/folders/gg/78xb1fg55m1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55753}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55753/devtoo..., se:cdpVersion: 137.0.7151.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22cd66d7c1a494e82bf116dcff2ee039]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on mac (22cd66d7c1a494e82bf116dcff2ee039)] -> name: username] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.55, chrome: {chromedriverVersion: 137.0.7151.55 (254bc711794d..., userDataDir: /var/folders/gg/78xb1fg55m1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55753}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55753/devtoo..., se:cdpVersion: 137.0.7151.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22cd66d7c1a494e82bf116dcff2ee039
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at page_Package.Advantage_login.clear_field(Advantage_login.java:50)
+at test_Package.Advantage_logintest.login_Test(Advantage_logintest.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Test -->
+      </class> <!-- test_Package.Advantage_logintest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
